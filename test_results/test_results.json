@@ -1,0 +1,31 @@
+{
+  "n_samples": 10,
+  "n_normal": 2,
+  "n_pneumonia": 8,
+  "decision_tree": {
+    "accuracy": 1.0,
+    "confusion_matrix": [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        8
+      ]
+    ]
+  },
+  "random_forest": {
+    "accuracy": 1.0,
+    "confusion_matrix": [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        8
+      ]
+    ]
+  }
+}

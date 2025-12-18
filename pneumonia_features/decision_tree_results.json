@@ -1,0 +1,310 @@
+{
+  "model_type": "decision_tree",
+  "train_accuracy": 0.9625,
+  "test_accuracy": 0.9,
+  "n_features": 52,
+  "n_train_samples": 80,
+  "n_test_samples": 20,
+  "max_depth": 5,
+  "min_samples_split": 4,
+  "min_samples_leaf": 2,
+  "feature_importances": [
+    {
+      "feature_number": 16,
+      "feature_name": "left_lung_largest_patch_area",
+      "importance": 0.4605870426628236
+    },
+    {
+      "feature_number": 43,
+      "feature_name": "right_lung_lbp_entropy",
+      "importance": 0.2967017310569181
+    },
+    {
+      "feature_number": 33,
+      "feature_name": "right_lung_consolidation_ratio",
+      "importance": 0.15574492692599895
+    },
+    {
+      "feature_number": 25,
+      "feature_name": "left_lung_total_opacity_ratio",
+      "importance": 0.05951228915058341
+    },
+    {
+      "feature_number": 26,
+      "feature_name": "left_lung_upper_mean",
+      "importance": 0.020386118748143105
+    },
+    {
+      "feature_number": 5,
+      "feature_name": "left_lung_base_std_intensity",
+      "importance": 0.007067891455532036
+    },
+    {
+      "feature_number": 11,
+      "feature_name": "left_lung_glcm_correlation",
+      "importance": 9.08583004878132e-16
+    },
+    {
+      "feature_number": 1,
+      "feature_name": "left_heart_border_edge_density",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 2,
+      "feature_name": "left_heart_border_intensity_diff",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 3,
+      "feature_name": "left_lung_base_angle",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 4,
+      "feature_name": "left_lung_base_mean_intensity",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 6,
+      "feature_name": "left_lung_bronchogram_score",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 7,
+      "feature_name": "left_lung_consolidation_ratio",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 8,
+      "feature_name": "left_lung_dark_line_density",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 9,
+      "feature_name": "left_lung_edge_density",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 10,
+      "feature_name": "left_lung_glcm_contrast",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 12,
+      "feature_name": "left_lung_glcm_energy",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 13,
+      "feature_name": "left_lung_glcm_homogeneity",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 14,
+      "feature_name": "left_lung_intensity_kurtosis",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 15,
+      "feature_name": "left_lung_intensity_skew",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 17,
+      "feature_name": "left_lung_lbp_entropy",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 18,
+      "feature_name": "left_lung_lower_mean",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 19,
+      "feature_name": "left_lung_max_intensity",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 20,
+      "feature_name": "left_lung_mean_intensity",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 21,
+      "feature_name": "left_lung_mean_patch_area",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 22,
+      "feature_name": "left_lung_middle_mean",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 23,
+      "feature_name": "left_lung_num_patches",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 24,
+      "feature_name": "left_lung_std_intensity",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 27,
+      "feature_name": "right_heart_border_edge_density",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 28,
+      "feature_name": "right_heart_border_intensity_diff",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 29,
+      "feature_name": "right_lung_base_angle",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 30,
+      "feature_name": "right_lung_base_mean_intensity",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 31,
+      "feature_name": "right_lung_base_std_intensity",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 32,
+      "feature_name": "right_lung_bronchogram_score",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 34,
+      "feature_name": "right_lung_dark_line_density",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 35,
+      "feature_name": "right_lung_edge_density",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 36,
+      "feature_name": "right_lung_glcm_contrast",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 37,
+      "feature_name": "right_lung_glcm_correlation",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 38,
+      "feature_name": "right_lung_glcm_energy",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 39,
+      "feature_name": "right_lung_glcm_homogeneity",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 40,
+      "feature_name": "right_lung_intensity_kurtosis",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 41,
+      "feature_name": "right_lung_intensity_skew",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 42,
+      "feature_name": "right_lung_largest_patch_area",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 44,
+      "feature_name": "right_lung_lower_mean",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 45,
+      "feature_name": "right_lung_max_intensity",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 46,
+      "feature_name": "right_lung_mean_intensity",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 47,
+      "feature_name": "right_lung_mean_patch_area",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 48,
+      "feature_name": "right_lung_middle_mean",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 49,
+      "feature_name": "right_lung_num_patches",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 50,
+      "feature_name": "right_lung_std_intensity",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 51,
+      "feature_name": "right_lung_total_opacity_ratio",
+      "importance": 0.0
+    },
+    {
+      "feature_number": 52,
+      "feature_name": "right_lung_upper_mean",
+      "importance": 0.0
+    }
+  ],
+  "classification_report": {
+    "Normal": {
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1-score": 0.75,
+      "support": 4.0
+    },
+    "Pneumonia": {
+      "precision": 0.9375,
+      "recall": 0.9375,
+      "f1-score": 0.9375,
+      "support": 16.0
+    },
+    "accuracy": 0.9,
+    "macro avg": {
+      "precision": 0.84375,
+      "recall": 0.84375,
+      "f1-score": 0.84375,
+      "support": 20.0
+    },
+    "weighted avg": {
+      "precision": 0.9,
+      "recall": 0.9,
+      "f1-score": 0.9,
+      "support": 20.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      3,
+      1
+    ],
+    [
+      1,
+      15
+    ]
+  ]
+}
