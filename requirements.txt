@@ -1,0 +1,10 @@
+numpy
+scikit-learn
+matplotlib
+seaborn
+opencv-python
+scipy
+torch
+torch-geometric
+torchvision
+scikit-image
