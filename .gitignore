@@ -1,3 +1,4 @@
 dataset/
-*.pt
+# *.pt
 waste/
+preprocessed_data/images

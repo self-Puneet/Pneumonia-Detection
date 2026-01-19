@@ -1,0 +1,548 @@
+{
+  "timestamp": "2026-01-19T05:23:05.536391",
+  "dataset": {
+    "features_file": "features.csv",
+    "total_samples": 196,
+    "n_features": 43,
+    "train_samples": 156,
+    "test_samples": 40,
+    "test_size": 0.2,
+    "random_state": 42
+  },
+  "decision_tree": {
+    "model_name": "Decision Tree",
+    "train_accuracy": 0.9551282051282052,
+    "test_accuracy": 0.8,
+    "test_precision": 0.7727272727272727,
+    "test_recall": 0.85,
+    "test_f1": 0.8095238095238095,
+    "test_auc": 0.8475,
+    "cv_mean_accuracy": 0.7762096774193548,
+    "cv_std_accuracy": 0.0843696403469807,
+    "confusion_matrix": [
+      [
+        15,
+        5
+      ],
+      [
+        3,
+        17
+      ]
+    ],
+    "classification_report": {
+      "Normal": {
+        "precision": 0.8333333333333334,
+        "recall": 0.75,
+        "f1-score": 0.7894736842105263,
+        "support": 20.0
+      },
+      "Pneumonia": {
+        "precision": 0.7727272727272727,
+        "recall": 0.85,
+        "f1-score": 0.8095238095238095,
+        "support": 20.0
+      },
+      "accuracy": 0.8,
+      "macro avg": {
+        "precision": 0.803030303030303,
+        "recall": 0.8,
+        "f1-score": 0.7994987468671679,
+        "support": 40.0
+      },
+      "weighted avg": {
+        "precision": 0.8030303030303031,
+        "recall": 0.8,
+        "f1-score": 0.7994987468671679,
+        "support": 40.0
+      }
+    },
+    "feature_importances": [
+      {
+        "feature_number": 21,
+        "feature_name": "RL_num_opacity_regions",
+        "importance": 0.5336074652732115
+      },
+      {
+        "feature_number": 24,
+        "feature_name": "RL_patch_irregularity",
+        "importance": 0.1484842374134571
+      },
+      {
+        "feature_number": 31,
+        "feature_name": "RL_lower_zone_edge_density_ratio",
+        "importance": 0.10259567046270644
+      },
+      {
+        "feature_number": 29,
+        "feature_name": "LL_patch_irregularity",
+        "importance": 0.09827810266406757
+      },
+      {
+        "feature_number": 39,
+        "feature_name": "border_continuity_score",
+        "importance": 0.053049527294602855
+      },
+      {
+        "feature_number": 38,
+        "feature_name": "border_gradient_mean",
+        "importance": 0.030097172756452545
+      },
+      {
+        "feature_number": 3,
+        "feature_name": "RL_std_edge_strength",
+        "importance": 0.021442495126705628
+      },
+      {
+        "feature_number": 25,
+        "feature_name": "RL_patch_edge_blur",
+        "importance": 0.005274624469670949
+      },
+      {
+        "feature_number": 11,
+        "feature_name": "LL_thick_edge_ratio",
+        "importance": 0.0037593984962406143
+      },
+      {
+        "feature_number": 35,
+        "feature_name": "LL_lower_zone_opacity_ratio",
+        "importance": 0.0034113060428849974
+      },
+      {
+        "feature_number": 1,
+        "feature_name": "RL_edge_density",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 2,
+        "feature_name": "RL_mean_edge_strength",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 4,
+        "feature_name": "RL_thin_edge_ratio",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 5,
+        "feature_name": "RL_thick_edge_ratio",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 6,
+        "feature_name": "RL_orientation_entropy",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 7,
+        "feature_name": "LL_edge_density",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 8,
+        "feature_name": "LL_mean_edge_strength",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 9,
+        "feature_name": "LL_std_edge_strength",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 10,
+        "feature_name": "LL_thin_edge_ratio",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 12,
+        "feature_name": "LL_orientation_entropy",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 13,
+        "feature_name": "RL_missing_edge_ratio",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 14,
+        "feature_name": "RL_low_gradient_area_ratio",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 15,
+        "feature_name": "RL_edge_gap_count",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 16,
+        "feature_name": "RL_mean_gap_length",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 17,
+        "feature_name": "LL_missing_edge_ratio",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 18,
+        "feature_name": "LL_low_gradient_area_ratio",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 19,
+        "feature_name": "LL_edge_gap_count",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 20,
+        "feature_name": "LL_mean_gap_length",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 22,
+        "feature_name": "RL_largest_patch_ratio",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 23,
+        "feature_name": "RL_mean_patch_edge_strength",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 26,
+        "feature_name": "LL_num_opacity_regions",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 27,
+        "feature_name": "LL_largest_patch_ratio",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 28,
+        "feature_name": "LL_mean_patch_edge_strength",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 30,
+        "feature_name": "LL_patch_edge_blur",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 32,
+        "feature_name": "RL_lower_zone_opacity_ratio",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 33,
+        "feature_name": "RL_upper_vs_lower_edge_drop",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 34,
+        "feature_name": "LL_lower_zone_edge_density_ratio",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 36,
+        "feature_name": "LL_upper_vs_lower_edge_drop",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 37,
+        "feature_name": "heart_lung_edge_density",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 40,
+        "feature_name": "edge_density_diff",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 41,
+        "feature_name": "mean_gradient_diff",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 42,
+        "feature_name": "opacity_area_diff",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 43,
+        "feature_name": "missing_edge_diff",
+        "importance": 0.0
+      }
+    ],
+    "n_features": 43,
+    "n_train_samples": 156,
+    "n_test_samples": 40
+  },
+  "random_forest": {
+    "model_name": "Random Forest",
+    "train_accuracy": 0.9807692307692307,
+    "test_accuracy": 0.925,
+    "test_precision": 0.9047619047619048,
+    "test_recall": 0.95,
+    "test_f1": 0.926829268292683,
+    "test_auc": 0.9725,
+    "cv_mean_accuracy": 0.871975806451613,
+    "cv_std_accuracy": 0.06404185554140562,
+    "confusion_matrix": [
+      [
+        18,
+        2
+      ],
+      [
+        1,
+        19
+      ]
+    ],
+    "classification_report": {
+      "Normal": {
+        "precision": 0.9473684210526315,
+        "recall": 0.9,
+        "f1-score": 0.9230769230769231,
+        "support": 20.0
+      },
+      "Pneumonia": {
+        "precision": 0.9047619047619048,
+        "recall": 0.95,
+        "f1-score": 0.926829268292683,
+        "support": 20.0
+      },
+      "accuracy": 0.925,
+      "macro avg": {
+        "precision": 0.9260651629072681,
+        "recall": 0.925,
+        "f1-score": 0.9249530956848031,
+        "support": 40.0
+      },
+      "weighted avg": {
+        "precision": 0.9260651629072681,
+        "recall": 0.925,
+        "f1-score": 0.924953095684803,
+        "support": 40.0
+      }
+    },
+    "feature_importances": [
+      {
+        "feature_number": 24,
+        "feature_name": "RL_patch_irregularity",
+        "importance": 0.13093589714620685
+      },
+      {
+        "feature_number": 26,
+        "feature_name": "LL_num_opacity_regions",
+        "importance": 0.12255969923884087
+      },
+      {
+        "feature_number": 21,
+        "feature_name": "RL_num_opacity_regions",
+        "importance": 0.09335017448742444
+      },
+      {
+        "feature_number": 16,
+        "feature_name": "RL_mean_gap_length",
+        "importance": 0.0796779180040657
+      },
+      {
+        "feature_number": 29,
+        "feature_name": "LL_patch_irregularity",
+        "importance": 0.0782469083793125
+      },
+      {
+        "feature_number": 20,
+        "feature_name": "LL_mean_gap_length",
+        "importance": 0.0689173525574063
+      },
+      {
+        "feature_number": 33,
+        "feature_name": "RL_upper_vs_lower_edge_drop",
+        "importance": 0.046968190851203385
+      },
+      {
+        "feature_number": 37,
+        "feature_name": "heart_lung_edge_density",
+        "importance": 0.042482070976825555
+      },
+      {
+        "feature_number": 31,
+        "feature_name": "RL_lower_zone_edge_density_ratio",
+        "importance": 0.04224967252819991
+      },
+      {
+        "feature_number": 34,
+        "feature_name": "LL_lower_zone_edge_density_ratio",
+        "importance": 0.030783901941025933
+      },
+      {
+        "feature_number": 3,
+        "feature_name": "RL_std_edge_strength",
+        "importance": 0.028688681319043178
+      },
+      {
+        "feature_number": 39,
+        "feature_name": "border_continuity_score",
+        "importance": 0.027171838314021115
+      },
+      {
+        "feature_number": 11,
+        "feature_name": "LL_thick_edge_ratio",
+        "importance": 0.024550387701552406
+      },
+      {
+        "feature_number": 38,
+        "feature_name": "border_gradient_mean",
+        "importance": 0.02240009481021457
+      },
+      {
+        "feature_number": 1,
+        "feature_name": "RL_edge_density",
+        "importance": 0.01448262981789583
+      },
+      {
+        "feature_number": 41,
+        "feature_name": "mean_gradient_diff",
+        "importance": 0.014248615141762592
+      },
+      {
+        "feature_number": 9,
+        "feature_name": "LL_std_edge_strength",
+        "importance": 0.014019436203844991
+      },
+      {
+        "feature_number": 4,
+        "feature_name": "RL_thin_edge_ratio",
+        "importance": 0.012174502930043915
+      },
+      {
+        "feature_number": 18,
+        "feature_name": "LL_low_gradient_area_ratio",
+        "importance": 0.011731057714054322
+      },
+      {
+        "feature_number": 42,
+        "feature_name": "opacity_area_diff",
+        "importance": 0.010664934878170598
+      },
+      {
+        "feature_number": 30,
+        "feature_name": "LL_patch_edge_blur",
+        "importance": 0.008196247781015104
+      },
+      {
+        "feature_number": 7,
+        "feature_name": "LL_edge_density",
+        "importance": 0.007513559607793306
+      },
+      {
+        "feature_number": 28,
+        "feature_name": "LL_mean_patch_edge_strength",
+        "importance": 0.0068560891046857446
+      },
+      {
+        "feature_number": 2,
+        "feature_name": "RL_mean_edge_strength",
+        "importance": 0.006038913428326969
+      },
+      {
+        "feature_number": 25,
+        "feature_name": "RL_patch_edge_blur",
+        "importance": 0.006004842666870237
+      },
+      {
+        "feature_number": 12,
+        "feature_name": "LL_orientation_entropy",
+        "importance": 0.0053978135476034205
+      },
+      {
+        "feature_number": 36,
+        "feature_name": "LL_upper_vs_lower_edge_drop",
+        "importance": 0.005137702238940489
+      },
+      {
+        "feature_number": 8,
+        "feature_name": "LL_mean_edge_strength",
+        "importance": 0.004557156255948173
+      },
+      {
+        "feature_number": 23,
+        "feature_name": "RL_mean_patch_edge_strength",
+        "importance": 0.00441280518413246
+      },
+      {
+        "feature_number": 40,
+        "feature_name": "edge_density_diff",
+        "importance": 0.0044046254318752176
+      },
+      {
+        "feature_number": 32,
+        "feature_name": "RL_lower_zone_opacity_ratio",
+        "importance": 0.0038336614358702946
+      },
+      {
+        "feature_number": 14,
+        "feature_name": "RL_low_gradient_area_ratio",
+        "importance": 0.0037421726336977733
+      },
+      {
+        "feature_number": 5,
+        "feature_name": "RL_thick_edge_ratio",
+        "importance": 0.003403848814259007
+      },
+      {
+        "feature_number": 43,
+        "feature_name": "missing_edge_diff",
+        "importance": 0.003387172087370833
+      },
+      {
+        "feature_number": 10,
+        "feature_name": "LL_thin_edge_ratio",
+        "importance": 0.003011072833759494
+      },
+      {
+        "feature_number": 22,
+        "feature_name": "RL_largest_patch_ratio",
+        "importance": 0.0028114132156456884
+      },
+      {
+        "feature_number": 6,
+        "feature_name": "RL_orientation_entropy",
+        "importance": 0.0018373840968778177
+      },
+      {
+        "feature_number": 27,
+        "feature_name": "LL_largest_patch_ratio",
+        "importance": 0.0012707413935944913
+      },
+      {
+        "feature_number": 17,
+        "feature_name": "LL_missing_edge_ratio",
+        "importance": 0.0011563474302982825
+      },
+      {
+        "feature_number": 35,
+        "feature_name": "LL_lower_zone_opacity_ratio",
+        "importance": 0.0007224658703202251
+      },
+      {
+        "feature_number": 13,
+        "feature_name": "RL_missing_edge_ratio",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 15,
+        "feature_name": "RL_edge_gap_count",
+        "importance": 0.0
+      },
+      {
+        "feature_number": 19,
+        "feature_name": "LL_edge_gap_count",
+        "importance": 0.0
+      }
+    ],
+    "n_features": 43,
+    "n_train_samples": 156,
+    "n_test_samples": 40
+  }
+}

@@ -1,10 +1,9 @@
-numpy
-scikit-learn
-matplotlib
-seaborn
-opencv-python
-scipy
-torch
-torch-geometric
+torch==2.0.1
+numpy==1.25.0
+opencv-python==4.8.0.74
+scipy==1.10.1
+torch_geometric==2.3.0
 torchvision
+gradio
+pandas
 scikit-image
