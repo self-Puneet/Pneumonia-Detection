@@ -6,7 +6,8 @@ class ApiService {
   // Change this to your backend URL
   // For local development: http://localhost:5000
   // For production: your deployed backend URL
-  static const String baseUrl = 'http://localhost:5000';
+  static const String baseUrl =
+      'https://pneumonia-detection.nexiotech.cloud/api';
 
   /// Predict pneumonia from chest X-ray image
   static Future<PredictionResponse> predictPneumonia(PlatformFile file) async {
