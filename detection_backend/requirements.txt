@@ -1,19 +1,9 @@
-# torch==2.0.1
-# numpy==1.25.0
-# opencv-python==4.8.0.74
-# scipy==1.10.1
-# torch_geometric==2.3.0
-# torchvision
-# gradio
-# pandas
-# scikit-image
-
 Flask==3.0.0
 flask-cors==4.0.0
 requests==2.31.0
 numpy==1.25.0
 pandas
-scipy>=1.11.4
+scipy==1.10.1
 opencv-python==4.8.0.74
 Pillow==10.1.0
 scikit-image==0.25.2

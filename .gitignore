@@ -2,3 +2,5 @@ dataset/
 # *.pt
 waste/
 preprocessed_data/images
+venv/
+__pycache__/

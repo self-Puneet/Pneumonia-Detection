@@ -26,7 +26,7 @@ from datetime import datetime
 import cv2
 import numpy as np
 
-from segmentation import ChestXraySegmenter
+from detection_backend.segmentation import ChestXraySegmenter
 
 
 class PreprocessingPipeline:
