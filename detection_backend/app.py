@@ -15,7 +15,7 @@ print("=" * 70)
 print("✅ ALL MODELS LOADED - READY TO SERVE")
 print("=" * 70)
 
-@app.route("/", methods=["GET"])
+@app.route("/api", methods=["GET"])
 def home():
     return jsonify({
         "message": "Pneumonia Detection API",
@@ -25,7 +25,7 @@ def home():
         }
     })
 
-@app.route("/predict", methods=["POST"])
+@app.route("/api/predict", methods=["POST"])
 def predict():
     try:
         # Check if image is present
