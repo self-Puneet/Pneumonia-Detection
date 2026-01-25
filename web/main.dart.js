@@ -21505,7 +21505,7 @@ AX(a){return A.aqU(a)},
 aqU(a){var s=0,r=A.S(t.n9),q,p=2,o=[],n,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$AX=A.N(function(a0,a1){if(a0===1){o.push(a1)
 s=p}while(true)switch(s){case 0:p=4
-n=A.fp("http://localhost:5000/predict",0,null)
+n=A.fp("https://pneumonia-detection.nexiotech.cloud/api/predict",0,null)
 m=A.atR("POST",n)
 g=m.y
 f=a.c
